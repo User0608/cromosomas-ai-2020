@@ -5,7 +5,7 @@ def buildData(n=16, longitud=16):
     num = 0
     nums = []
     for i in range(longitud):
-        num = r.randint(0, 2**n)
+        num = r.randint(0, (2**n)-1)
         nums.append(num)
     return nums
 
